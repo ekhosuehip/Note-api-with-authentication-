@@ -4,6 +4,10 @@ This is a TypeScript-based API for a note-taking application. It provides functi
 
 ## Features
 
+## Deployment
+The API is live and can be accessed here:
+🔗 [Note-Taking API](https://note-api-with-authentication.onrender.com)
+
 - **User Authentication:**
   - User registration (sign-up)
   - User login
