@@ -1,11 +1,9 @@
 import { Request, Response, NextFunction } from "express";
-import { verifyToken } from "../utils/auth";
 import jwt from "jsonwebtoken";
 
 import { DecodedUser } from "../interfaces/User";
 
-import dotenv from 'dotenv';
-import { string } from "joi";
+import dotenv from 'dotenv'
 
 dotenv.config();
 
