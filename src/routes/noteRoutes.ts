@@ -1,5 +1,4 @@
 import express from 'express';
-import { Request, Response, NextFunction } from 'express';
 import {protect} from '../middleware/authMiddleware'
 import{validate} from '../middleware/Joi';
 import {schema} from '../schema/joiSchema'

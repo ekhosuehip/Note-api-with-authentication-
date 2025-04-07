@@ -81,9 +81,7 @@ export const getNote = async (req: Request, res: Response, next: NextFunction) =
   const userObject = JSON.parse(user);
   const userId = userObject.userId;
   console.log(userId);
-  console.log("This is here",userObject);
-  
-
+ 
   try {
 
   //Validate user ID format before querying MongoDB
@@ -125,6 +123,8 @@ export const getAllNote = async (req: Request, res: Response, next: NextFunction
   const userObject = JSON.parse(user);
   const userId = userObject.userId;
   console.log(userId);
+
+ 
   
   try {
     //Validate user ID format before querying MongoDB
