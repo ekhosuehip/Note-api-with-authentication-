@@ -19,7 +19,7 @@ mongoose.connect(config.mongo.url as string)
 app.use(cors());
 app.use(express.json());
 app.use(cookieParser())
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: false }));
 app.use(loggerMiddleware);
 
 
